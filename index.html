@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/baff5d4d9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" type="module" defer></script>
+    <title>Login page</title>
+</head>
+<body>
+    <div id="authForm">
+        <h2>Sign in or Register</h2>
+        <label for="userEmail">Email</label>
+        <input type="email" placeholder="Email" id="userEmail"> 
+        <label for="userPassword">Password</label>
+        <input type="password" placeholder="Password" id="userPassword"> 
+        <button id="signInButton">Sign in</button>
+        <button id="registerButton">Register</button>
+    </div>
+
+    <div id="authContent">
+        <nav><button id="signOutButton">Sign Out</button></nav>
+        <div class="container">
+            <i class="fa-solid fa-cart-shopping fa-3x"></i>
+            <input type="text" id="input-field" placeholder="Bread">
+            <button id="add-button">Add to cart</button>
+            <ul id="shopping-list">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
